@@ -9,7 +9,7 @@ const fs = require('fs');
 const port = process.env.PORT || 3000;
 var app = express();
 
-hbs.registerPartials(__dirname + '/Views/partials')
+hbs.registerPartials(__dirname + '/views/partials')
 app.set('view engine','hbs');
 
 
